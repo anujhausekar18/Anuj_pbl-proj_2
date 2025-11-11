@@ -10,7 +10,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 from IPython.display import display, Markdown  # For clean, formatted output
 
-file_path = r"C:\Users\Farahan\Downloads\Breast Cancer Dataset(in).csv"  # Update path if needed
+file_path = r"C:\Users\Anuj\Downloads\Breast Cancer Dataset(in).csv  # Update path if needed
 df = pd.read_csv(file_path)
 
 display(Markdown("**Data Loaded Successfully**"))
